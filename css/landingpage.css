@@ -3,7 +3,7 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'Roboto', arial;
+    font-family: 'press start 2p', arial;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
 .navbar {
     display: flex;
     color: #F9FAF8;
-    background-color: #1F2937;
+    background-color: #000000;
     padding: 20px 0px 20px 100px;
     align-items: center;
 }
@@ -35,18 +35,18 @@ body {
 
 .header-link a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #5a0283;
     font-size: 18px;
     padding: 10px;
-    font-family: 'Roboto', arial;
+    font-family: 'press start 2p', arial;
 }
 
 /* Hero Part */
 
 .hero {
     display: flex;
-    color: #F9FAF8;
-    background-color: #1F2937;
+    color: #ffffff;
+    background-color: #000000;
     align-items: center;
     justify-content: center;
     padding: 90px;
@@ -61,16 +61,16 @@ body {
 }
 
 .hero-cta p {
-    font-family: 'Roboto', arial;
+    font-family: 'press start 2p', arial;
     opacity: 0.7;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bold;
-    color: #F9FAF8;
+    color: #ffffff;
     margin: 0;
-    font-family: 'Roboto', arial;
+    font-family: 'press start 2p', arial;
 }
 
 .hero button {
@@ -81,8 +81,8 @@ h1 {
     background: #3882f6;
     padding: 10px;
     border-radius: 8px;
-    color: #fff;
-    font-family: 'Roboto', arial;
+    color: rgb(255, 255, 255);
+    font-family: 'press start 2p', arial;
     text-decoration: none;
     font-weight: bold;
 }
@@ -102,6 +102,7 @@ h1 {
     display: flex;
     /* border: 1px solid gold; */
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -109,32 +110,30 @@ h1 {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 4px solid #3882F6;
     border-radius: 15px;
-    margin: 5px 20px 0px 20px;
+    margin: 20px 20px 20px 20px;
 }
-
 /* Quotation Part */
 
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background-color: lightgray;
     padding: 0 200px;
 }
 
 .quote p {
     font-size: 36px;
-    color: #1F2937;
+    color: black;
     font-style: italic;
     font-weight: lighter;
-    font-family: 'Roboto', arial;
+    font-family: 'press start 2p', arial;
 }
 
 .quote b {
     padding-bottom: 20px;
     padding-right: 10px;
-    font-family: 'Roboto', arial;
+    font-family: 'press start 2p', arial;
     text-align: right;
 }
 
@@ -165,14 +164,14 @@ h1 {
 
 h3 {
     color: #fff;
-    font-family: 'Roboto', arial;
+    font-family: 'press start 2p', arial;
     padding: 0;
     margin: 30px 0px 0px 50px;
 }
 
 .signs-button button {
     color: #fff;
-    font-family: 'Roboto', arial;
+    font-family: 'press start 2p', arial;
     border-color: #fff;
     border-radius: 8px;
     background-color: #3882F6;
@@ -184,6 +183,6 @@ h3 {
 
 .footer {
     background-color: #1F2937;
-    color: #fff;
-    font-family: 'Roboto', arial;
+    color: rgb(255, 255, 255);
+    font-family: 'press start 2p', arial;
 }
